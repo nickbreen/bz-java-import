@@ -2,9 +2,9 @@ java_binary(
     name = "some-app",
     srcs = glob(["src/main/java/**"]),
     args = [
-        100,
-        200,
-        300,
+        "100",
+        "200",
+        "300",
     ],
     main_class = "com.example.SomeApp",
     deps = ["//some-annotation"],
