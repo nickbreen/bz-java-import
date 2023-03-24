@@ -1,0 +1,9 @@
+load("@bazel_tools//tools/jdk:local_java_repository.bzl", "local_java_repository")
+
+local_java_repository(
+    name = "optjdk",
+    version = "11",
+    java_home = "/mnt/scratch/lmax.cache/jdk11/11.0.10_9-2",
+)
+
+register_toolchains("@optjdk//:all")
