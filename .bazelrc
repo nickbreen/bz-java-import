@@ -2,6 +2,7 @@ startup --noautodetect_server_javabase
 startup --server_javabase=/mnt/scratch/lmax.cache/jdk11/11.0.10_9-2
 
 build --java_language_version=11
+build --tool_java_language_version=11
 build --java_runtime_version=optjdk_11
 build --tool_java_runtime_version=optjdk_11
 

@@ -1,6 +1,4 @@
-load(":defs.bzl", "jar")
-
-jar(
+java_import(
     name = "checker-qual",
     jars = ["checker-qual-3.30.0.jar"],
     srcjar = "checker-qual-3.30.0-sources.jar",

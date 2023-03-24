@@ -1,5 +1,5 @@
 java_library(
-    name = "annotation",
+    name = "some-annotation",
     srcs = glob(["src/main/java/**"]),
     deps = ["//checker-qual"],
 )
