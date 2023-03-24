@@ -1,5 +1,6 @@
 java_library(
     name = "some-annotation",
     srcs = glob(["src/main/java/**"]),
+    visibility = ["//visibility:public"],
     deps = ["//checker-qual"],
 )
